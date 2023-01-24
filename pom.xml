@@ -6,7 +6,7 @@
 
     <groupId>pe.chalk.bukkit</groupId>
     <artifactId>LadderFuel</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>LadderFuel</name>
@@ -79,7 +79,7 @@
         <dependency>
             <groupId>com.github.chalkpe</groupId>
             <artifactId>ChestOverflow</artifactId>
-            <version>v2.3.6</version>
+            <version>v2.3.8</version>
             <scope>provided</scope>
         </dependency>
 
