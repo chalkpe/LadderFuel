@@ -1,5 +1,6 @@
 package pe.chalk.bukkit.ladderfuel;
 
+import org.bstats.bukkit.Metrics;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -18,6 +19,7 @@ public final class LadderFuel extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         this.getServer().getPluginManager().registerEvents(this, this);
+        new Metrics(this, 17520);
     }
 
     @EventHandler
