@@ -1,0 +1,8 @@
+name: LadderFuel
+version: '${project.version}'
+main: pe.chalk.bukkit.ladderfuel.LadderFuel
+api-version: 1.19
+depend: [ ChestOverflow ]
+authors: [ Chalk ]
+description: Sort ladder to max fuel stack size
+website: https://github.com/chalkpe/LadderFuel
